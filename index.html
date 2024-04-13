@@ -14,29 +14,43 @@
                 <div class="nav-links">
                     <div class="logo">
                         <div>Azamat Yashinov</div>
-                        <div class="menu_burger">
-                            <img src="./images/menu-burger.png" alt="">
-                        </div>
-                
                     </div>
                     <div class="links ">
                         <a href="">About</a>
                         <a href="">Work</a>
                         <a href="">Contacts</a>
                     </div>
-                
+                    <button class="menu-burger"><img src="./images/menu-burger.png" alt=""></button>
                 </div>
-              
-          
+            </div>
+            <div class="menu_list ">
+                <a href="">About</a>
+                <a href="">Work</a>
+                <a href="">Contacts</a>
             </div>
         </nav>
-        <div class="menu menu_list">
-            <a href="">About</a>
-            <a href="">Work</a>
-            <a href="">Contacts</a>
-        </div>
+
     </header>
+
+    <main>
+        <section class="about">
+            <div class="container">
+               <div class="cards">
+                <div class="card">
+                    <h1>Azamat Yashinov</h1>
+                    <p>2005-yil 19-dekabr kuni Qashqadaryo viloyati Yakkabog' tumanida tug'ulgan.</p>
+                </div>
+               </div>
+            </div>
+        </section>
+    </main>
     
     <script src="./main.js"></script>
+    <script>let modeBtn = document.getElementById("menu-burger");
+
+        modeBtn.addEventListener("click", function () {
+        document.body.classList.toggle("menu");
+        });
+        </script>
 </body>
 </html>
