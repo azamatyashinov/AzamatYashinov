@@ -33,13 +33,14 @@ nav{
     transition: transform .5s ;
 }
 a{
+    transition: all .4s ease;
     color: #ccc;
     text-decoration: none;
     /* color: #4444; */
     
 }
 .header-burger-btn{
-   
+   cursor: pointer;
     z-index: 2;
     display: none;
     border: none;
@@ -84,18 +85,34 @@ header.open .header-burger-btn span:nth-child(1){
     }
 
     .menu_list{
+        
         text-align: center;
+        height: 250px;
         position: absolute;
         width: 100%;
         left: 200%;
         top: 0;
         gap: 15px;
         background-color: blue;
+        opacity: 85%;
         display: flex;
         padding: 85px 20px 20px 20px;
         align-items: center;
         flex-direction: column;
         /* padding-left: 100px; */
+    }
+    a{
+        padding-top: 10px;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    a:hover{
+
+        background-color: rgb(102, 102, 146);
+        
+        border-radius: 10px;
+
     }
    
 
