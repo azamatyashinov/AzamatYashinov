@@ -12,18 +12,22 @@
 }
 
 nav{
-    background-color: #0019d394;
-    padding: 30px 0;
+    background-color: #000425;
+    padding: 20px 0;
     
 }
 
 .nav-links{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
-.logo div{
+.logo img{
+    width: 120px;
+    height: 120px;
     color: rgb(12, 229, 12);
     font-size: 28px;
     font-weight: 700;
@@ -128,6 +132,13 @@ header.open .header-burger-btn span:nth-child(1){
         
         border-radius: 10px;
 
+    }
+    .logo img{
+        width: 90px;
+        height: 90px;
+        color: rgb(12, 229, 12);
+        font-size: 28px;
+        font-weight: 700;
     }
    
 
