@@ -13,7 +13,7 @@
 
 nav{
     background-color: #000425;
-    padding: 20px 0;
+    padding: 0px 0;
     
 }
 
@@ -47,13 +47,17 @@ nav{
    
 }
 a{
-    transition: all .4s ease;
+    transition: all .5s ease;
     color: #ffffff;
     font-size: 24px;
     text-decoration: none;
     font-weight: 600;
     /* color: #4444; */
     
+}
+a:hover{
+    color: rgb(177, 139, 89);
+    border-bottom: 2px solid  rgb(177, 139, 89);
 }
 .header-burger-btn{
    cursor: pointer;
@@ -122,15 +126,21 @@ header.open .header-burger-btn span:nth-child(1){
     }
     a{
         padding-top: 10px;
-        width: 100px;
+        width: 150px;
         height: 50px;
         border-radius: 10px;
+        transition: all .5s ease;
+        color: #ffffff;
+        font-size: 24px;
+        text-decoration: none;
+        font-weight: 600;
+        /* color: #4444; */
+        
     }
     a:hover{
 
-        color: rgb(8, 8, 97);
-        
-        border-radius: 10px;
+        color: rgb(177, 139, 89);
+    border-bottom: 3px solid  rgb(177, 139, 89);
 
     }
     .logo img{
